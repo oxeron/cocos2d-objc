@@ -171,29 +171,29 @@
  or your may get errors when building project
  */
 #ifndef CC_LIGHTING
-#define CC_LIGHTING 0
+#define CC_LIGHTING 1
 #endif
 
 #ifndef CC_PHYSICS
-#define CC_PHYSICS 0
+#define CC_PHYSICS 1
 #endif
 
 #ifndef CC_CCBREADER
-#define CC_CCBREADER 0
+#define CC_CCBREADER 1
 #endif
 
 /**
  For CCEffectLighting you need to enable both CC_EFFECTS and CC_LIGHTING
  */
 #ifndef CC_EFFECTS
-#define CC_EFFECTS 0
+#define CC_EFFECTS 1
 #endif
 
 #ifndef CC_OBJECT_AL
-#define CC_OBJECT_AL 0
+#define CC_OBJECT_AL 1
 #endif
 
 #ifndef CC_EFFECTS_EXPERIMENTAL
-#define CC_EFFECTS_EXPERIMENTAL 0
+#define CC_EFFECTS_EXPERIMENTAL 1
 #endif
 
