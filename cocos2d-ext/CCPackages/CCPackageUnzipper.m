@@ -88,7 +88,7 @@
 
 #pragma mark - SSZipArchiveDelegate
 
-- (void)zipArchiveProgressEvent:(NSInteger)loaded total:(NSInteger)total
+- (void)zipArchiveProgressEvent:(unsigned long long)loaded total:(unsigned long long)total
 {
     if ([_delegate respondsToSelector:@selector(unzipProgress:unzippedBytes:totalBytes:)])
     {
