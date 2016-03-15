@@ -940,20 +940,6 @@
 			remoteGlobalIDString = 7A4037A719E37038007B6E8F;
 			remoteInfo = "cocos2d-mac";
 		};
-		FF1AEC451C9402770004C451 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF1AEC401C9402770004C451 /* ZipArchive.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B423AE1A1C0DF76A0004A2F1;
-			remoteInfo = "ZipArchive-iOS";
-		};
-		FF1AEC471C9402770004C451 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF1AEC401C9402770004C451 /* ZipArchive.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AFF75A241C37279600F450AC;
-			remoteInfo = "ZipArchive-Mac";
-		};
 		FF1AEC651C9405890004C451 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FF1AEC401C9402770004C451 /* ZipArchive.xcodeproj */;
@@ -1058,20 +1044,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = FFAED1D11C93F10B00DBA1A1;
 			remoteInfo = "ObjectAL (tvOS)";
-		};
-		FFAED2341C93F15B00DBA1A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF1E1F241C8F849D00C154B5 /* ObjectAL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CBBAB33D171D0BC4009B955F;
-			remoteInfo = "ObjectAL (OSX)";
-		};
-		FFAED2361C93F15B00DBA1A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF1E1F241C8F849D00C154B5 /* ObjectAL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CB0C06D01C17640200297E1C;
-			remoteInfo = ObjectAL;
 		};
 		FFAED2381C93F15B00DBA1A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2066,8 +2038,6 @@
 		FF1AEC411C9402770004C451 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF1AEC461C9402770004C451 /* ZipArchive.framework */,
-				FF1AEC481C9402770004C451 /* ZipArchive.framework */,
 				FF1AEC661C9405890004C451 /* libZipArchive tvOS.a */,
 				FFE307F11C97173A00AFC7D0 /* libZipArchive iOS.a */,
 				FFE307F31C97173A00AFC7D0 /* libZipArchive OSX.a */,
@@ -2176,8 +2146,6 @@
 			isa = PBXGroup;
 			children = (
 				FF1E1F2E1C8F849D00C154B5 /* libObjectAL.a */,
-				FFAED2351C93F15B00DBA1A1 /* ObjectAL.framework */,
-				FFAED2371C93F15B00DBA1A1 /* ObjectAL.framework */,
 				FFAED2391C93F15B00DBA1A1 /* libObjectAL (tvOS).a */,
 				FFE3085D1C971B9500AFC7D0 /* libObjectAL OSX.a */,
 			);
@@ -2957,20 +2925,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FF1AEC461C9402770004C451 /* ZipArchive.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ZipArchive.framework;
-			remoteRef = FF1AEC451C9402770004C451 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FF1AEC481C9402770004C451 /* ZipArchive.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ZipArchive.framework;
-			remoteRef = FF1AEC471C9402770004C451 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		FF1AEC661C9405890004C451 /* libZipArchive tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -3032,20 +2986,6 @@
 			fileType = archive.ar;
 			path = "libObjectiveChipmunk-tvOS.a";
 			remoteRef = FF5411D41C9219B800CA360C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FFAED2351C93F15B00DBA1A1 /* ObjectAL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ObjectAL.framework;
-			remoteRef = FFAED2341C93F15B00DBA1A1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FFAED2371C93F15B00DBA1A1 /* ObjectAL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ObjectAL.framework;
-			remoteRef = FFAED2361C93F15B00DBA1A1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		FFAED2391C93F15B00DBA1A1 /* libObjectAL (tvOS).a */ = {
@@ -3780,7 +3720,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -3821,7 +3761,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -3889,7 +3829,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/external/ObjectAL/ObjectAL/build/Release",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -3947,7 +3887,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/external/ObjectAL/ObjectAL/build/Release",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
 					"-all_load",
