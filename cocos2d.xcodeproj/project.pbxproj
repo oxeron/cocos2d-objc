@@ -732,7 +732,6 @@
 		FF1E140B1C8F7F2C00C154B5 /* CCParticleSystemBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1E13E71C8F7F2C00C154B5 /* CCParticleSystemBase.h */; };
 		FF1E140D1C8F7F2C00C154B5 /* CCParticleSystemBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1E13E71C8F7F2C00C154B5 /* CCParticleSystemBase.h */; };
 		FF1E140E1C8F7F2C00C154B5 /* CCParticleSystemBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E13E81C8F7F2C00C154B5 /* CCParticleSystemBase.m */; };
-		FF1E14171C8F814F00C154B5 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = FF1E14161C8F814F00C154B5 /* VERSION */; };
 		FF3DA9FB1C90BDB1000F388F /* CCSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 509A79950F6188420032F449 /* CCSprite.h */; };
 		FF3DA9FC1C90BDB2000F388F /* CCSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 509A79950F6188420032F449 /* CCSprite.h */; };
 		FF3DA9FD1C90BDB2000F388F /* CCSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 509A79950F6188420032F449 /* CCSprite.h */; };
@@ -3050,7 +3049,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1E14171C8F814F00C154B5 /* VERSION in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3866,7 +3864,7 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apportable.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocos2d.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -3924,7 +3922,7 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apportable.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocos2d.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
