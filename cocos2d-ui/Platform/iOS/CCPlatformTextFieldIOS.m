@@ -55,15 +55,20 @@
 - (void)onEnterTransitionDidFinish {
     [super onEnterTransitionDidFinish];
     [self addUITextView];
+#if !defined(__TV_OS_VERSION_MAX_ALLOWED)
     [self registerForKeyboardNotifications];
-
+#endif
 }
+
 - (void) onExitTransitionDidStart
 {
     [super onExitTransitionDidStart];
     [self removeUITextView];
+#if !defined(__TV_OS_VERSION_MAX_ALLOWED)
     [self unregisterForKeyboardNotifications];
+#endif
 }
+
 - (void) setString:(NSString *)string
 {
     _textField.text = string;
@@ -77,7 +82,7 @@
 - (void)setFontSize:(float)fontSize {
     UIFont *font = _textField.font;
     _textField.font = [font fontWithSize:fontSize*_scaleMultiplier];
-
+    
 }
 
 - (BOOL)hidden {
@@ -102,7 +107,7 @@
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
-
+    
     if (_keyboardIsShown)
     {
         [self focusOnTextField];
@@ -130,7 +135,7 @@
 
 
 #pragma mark Keyboard Notifications
-
+#if !defined(__TV_OS_VERSION_MAX_ALLOWED)
 - (void)registerForKeyboardNotifications
 {
     [[NSNotificationCenter defaultCenter] addObserver:self
@@ -179,7 +184,7 @@
         [self endFocusingOnTextField];
 }
 
-
+#endif
 #pragma mark Focusing on Text Field
 
 
