@@ -31,9 +31,9 @@ Creating New Projects
 ---------------------
 For creating new projects you should use an official [Cocos2D Installer][5].
 
-There is a rich GUI editor for Cocos2D app named SpriteBuilder. SpriteBuilder is, just like Cocos2D, free and open source. You can get SpriteBuilder from [spritebuilder.com](http://spritebuilder.com) or from the Mac App Store. Projects created using SpriteBuilder contains the complete Cocos2D source code, and after the project has been created using SpriteBuilder is optional.
+There is a rich GUI editor for Cocos2D app named CocosBuilder. CocosBuilder is, just like Cocos2D, free and open source. You can get CocosBuilder from [cocosbuilder.org](http://cocosbuilder.org). Projects created using CocosBuilder contains the complete Cocos2D source code, and after the project has been created using CocosBuilder is optional.
 
-SpriteBuilder also allows you to update the Cocos2D version in your project, to newest version, making it trivial to always keep you project updated to latest Cocos2D version.
+CocosBuilder also allows you to update the Cocos2D version in your project, to newest version, making it trivial to always keep you project updated to latest Cocos2D version.
 
 You can find the full Cocos2D documentation and user guide at our [documentation page](http://cocos2d-objc.org/docs/).
 
