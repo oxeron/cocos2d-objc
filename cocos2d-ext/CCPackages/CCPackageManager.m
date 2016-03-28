@@ -620,7 +620,7 @@
     {
         if (error)
         {
-            *error = [NSError errorWithDomain:@"com.cocos2d"
+            *error = [NSError errorWithDomain:@"org.cocos2d"
                                          code:PACKAGE_ERROR_MANAGER_CANNOT_DISABLE_NON_ENABLED_PACKAGE
                                      userInfo:@{NSLocalizedDescriptionKey: @"Error disabling package. Only packages with status CCPackageStatusInstalledEnabled can be disabled."}];
         }
@@ -651,7 +651,7 @@
     {
         if (error)
         {
-            *error = [NSError errorWithDomain:@"com.cocos2d"
+            *error = [NSError errorWithDomain:@"org.cocos2d"
                                          code:PACKAGE_ERROR_MANAGER_CANNOT_ENABLE_NON_DISABLED_PACKAGE
                                      userInfo:@{NSLocalizedDescriptionKey: @"Error enabling package. Only packages with status CCPackageStatusInstalledDisabled can be enabled."}];
         }

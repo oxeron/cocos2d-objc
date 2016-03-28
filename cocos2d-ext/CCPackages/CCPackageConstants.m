@@ -22,9 +22,9 @@ NSUInteger const PACKAGE_ERROR_MANAGER_NO_BASE_URL_SET = 10022;
 NSUInteger const PACKAGE_ERROR_MANAGER_CANNOT_DELETE_UNZIPPING_PACKAGE = 10023;
 
 // Misc
-NSString *const PACKAGE_REL_DOWNLOAD_FOLDER = @"com.cocos2d/Packages/Downloads";
+NSString *const PACKAGE_REL_DOWNLOAD_FOLDER = @"org.cocos2d/Packages/Downloads";
 
-NSString *const PACKAGE_REL_UNZIP_FOLDER = @"com.cocos2d/Packages/Unzipped";
+NSString *const PACKAGE_REL_UNZIP_FOLDER = @"org.cocos2d/Packages/Unzipped";
 
 NSString *const PACKAGE_STORAGE_USERDEFAULTS_KEY = @"cocos2d.packages";
 
