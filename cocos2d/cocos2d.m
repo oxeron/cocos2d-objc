@@ -43,3 +43,19 @@ NSString *cocos2dVersion()
         return([[NSString stringWithFormat:@"Cocos2D-ObjC version %d.%d.%d-", major, minor, rev] stringByAppendingString:COCOS2D_BUILD]);
     }
 }
+
+NSString *cocos2dNumericVersion()
+{
+    int major   = (COCOS2D_VERSION >> 16) & 0x0000FF;
+    int minor   = (COCOS2D_VERSION >>  8) & 0x0000FF;
+    int rev     = (COCOS2D_VERSION >>  0) & 0x0000FF;
+    
+    if ([COCOS2D_BUILD isEqualToString:@"release"])
+    {
+        return [NSString stringWithFormat:@"%d.%d.%d", major, minor, rev];
+    }
+    else
+    {
+        return([[NSString stringWithFormat:@"%d.%d.%d-", major, minor, rev] stringByAppendingString:COCOS2D_BUILD]);
+    }
+}

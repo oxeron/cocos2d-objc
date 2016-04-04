@@ -139,7 +139,8 @@ extern "C" {
 
 // free functions
 NSString * cocos2dVersion(void);
-
+NSString * cocos2dNumericVersion(void);
+    
 #ifdef __cplusplus
 }
 #endif
